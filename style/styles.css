@@ -1,0 +1,95 @@
+a {
+    text-decoration: none;
+    margin: 50px
+}
+a:hover {
+    color:rgb(255, 217, 0);
+}
+#current {
+    color:rgb(255, 217, 0);
+}
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(38, 38, 38);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color:rgb(225, 225, 225);
+}
+section {
+    background-color: rgb(39, 39, 39);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width:75%;
+}
+.content {
+    display:flex;
+    flex-direction: row;
+}
+.side-content {
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+    margin:0px;
+    padding: 50px 0px 50px 0px;
+}
+h2 {
+    text-align: left;
+}
+nav {
+    background-color: rgb(143, 203, 255);
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+nav a {
+    text-transform: uppercase;
+    color:rgb(225, 225, 225);
+}
+header {
+    background-color: rgb(143, 203, 255);
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+img {
+    padding: 0px 5px 0px 5px;
+}
+footer {
+    text-align: center;
+    background-color: rgb(143, 203, 255);
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 0px;
+    border-top: 1px solid black;
+}
+article {
+    padding: 15px;
+    color:rgb(225, 225, 225);
+}
+p,h2 {
+    padding-top: 15px;
+    color:rgb(225, 225, 225);
+}
+.banners {
+    background-color: rgb(28, 28, 28);
+}
+.surprise {
+    color:greenyellow;
+    display:none
+}
+@media (max-width: 800px) {
+        .content {
+            flex-direction: column;
+          }
+          .surprise {
+            display:block
+          }
+}

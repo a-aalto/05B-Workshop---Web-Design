@@ -1,0 +1,1 @@
+Tämä kokonaisuus on osa WS05 Workshop -tehätävää.
